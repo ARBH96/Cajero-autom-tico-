@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero automatico</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">User Login</h1>
+        <form class="login_form" input type=submit action="index2.html"  method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or User</div>
+            <input autocomplete="off"  type="text" name="email">
+            <div id="email_error">Please fill up your User or Email</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password">
+            <div id="pass_error">Please fill up your Password</div>
+            <button type="button" class="btn" onclick="redireccion()">Login</button>
+        </form>
+    </div>
+    <script src="main6.js"></script>
+</body>
+</html>

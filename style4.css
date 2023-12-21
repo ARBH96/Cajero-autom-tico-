@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg) no-repeat;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+button{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 25px;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+}
+
+input{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 0px;
+    background: #f0dff2;
+}
+
+.section1{
+    height: 70px;
+    background-color: #F9F9E0;
+    font-size: 30px;
+}
+
+h1{
+    color: #b40129;
+    background-color: white;
+}

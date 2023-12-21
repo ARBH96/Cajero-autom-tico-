@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+   <h1>¡Bienvenido al cajero online!  Gera</h1>
+   <script>window.alert('No puedes depositar menos de 10 o más de 990 pesos');</script>
+   <form action="" method="post">
+    <input type="text" name="saldo" placeholder="Su saldo es" />
+    <input type="button" value="consultar" onclick="consultar()">
+    <br />
+    <br />
+    <input type="number" name="deposito" min="10" max="990" placeholder="Ingrese un deposito" />
+
+    <input type="button" value="Depositar" onclick="depositar()">
+    <br />
+    <br />
+    <h2>Su saldo actual es</h2><br />
+    <input type="text" name="verificacion">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <br />
+    <br />
+    <input type="number" name="retiro" min="10" max="990" />
+    <input type="button" value="Retirar" onclick="retirar()">
+    <br />
+    <br />
+    <input type="text" name="calculacion">
+    <input type="button" value="calcular" onclick="calcular()">
+    <button type="button" class="btn" onclick="redireccion()">
+        Cerrar sesión
+        <span>&times;</span>
+    </button>
+   </form>
+   <script src="main3.js"></script>
+</body>
+</html>
